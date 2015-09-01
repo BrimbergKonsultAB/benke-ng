@@ -146,6 +146,7 @@ module.exports = function (grunt) {
           src: [
             '.tmp',
             '<%= yeoman.dist %>/{,*/}*',
+            '!<%= yeoman.dist %>/node_modules{,*/}*',
             '!<%= yeoman.dist %>/README.md{,*/}*',
             '!<%= yeoman.dist %>/server.js{,*/}*',
             '!<%= yeoman.dist %>/package.json{,*/}*',
