@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name benkeNgApp.controller:AboutCtrl
+ * @name benkeNgApp.controller:KontaktCtrl
  * @description
- * # AboutCtrl
+ * # KontaktCtrl
  * Controller of the benkeNgApp
  */
 angular.module('benkeNgApp')
-  .controller('AboutCtrl', function () {
+  .controller('KontaktCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

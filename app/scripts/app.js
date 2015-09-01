@@ -24,10 +24,30 @@ angular
                 controller: 'MainCtrl',
                 controllerAs: 'main'
             })
-            .when('/about', {
-                templateUrl: 'views/about.html',
-                controller: 'AboutCtrl',
-                controllerAs: 'about'
+            .when('/cv-se', {
+              templateUrl: 'views/cv-se.html',
+              controller: 'CvSeCtrl',
+              controllerAs: 'cvSe'
+            })
+            .when('/cv-en', {
+              templateUrl: 'views/cv-en.html',
+              controller: 'CvEnCtrl',
+              controllerAs: 'cvEn'
+            })
+            .when('/kurser', {
+              templateUrl: 'views/kurser.html',
+              controller: 'KurserCtrl',
+              controllerAs: 'kurser'
+            })
+            .when('/link', {
+              templateUrl: 'views/link.html',
+              controller: 'LinkCtrl',
+              controllerAs: 'link'
+            })
+            .when('/kontakt', {
+              templateUrl: 'views/kontakt.html',
+              controller: 'KontaktCtrl',
+              controllerAs: 'kontakt'
             })
             .otherwise({
                 redirectTo: '/'
